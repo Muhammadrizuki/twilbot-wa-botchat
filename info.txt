@@ -1,0 +1,29 @@
+# After train, to get_response() 31:13
+Kita sudah punya model pipeline untuk memprediksi tagnya:
+    chat = "halo, Selamat siang mintz!"
+    pipeline.predict([chat])
+Kode 4: chat dalam bentuk list karena yang masuk ke model itu harus data dengan tipe data plural (siap dimasukkan beberapa data sekaligus)
+    -Output: array(['salam'], dtype='<U18')
+Mendapatkan nilai probability predict tag
+    pipeline.predict_proba([chat])
+    -Output: list dalam list
+Kode 8: menghasilkan nilai probabilitas seluruh kelas
+Mendapatkan nilai probabilitas max
+    res = pipeline.predict_proba([chat])
+    max(res)
+    -Output: masih dalam list
+    max(res[0]) 
+Mendapatkan class nilai probabilitas max
+    import numpy as np
+    np.argmax(res[0])
+    -Output: nomor index class
+    pipeline.classes_
+    -Output: nama-nama class
+    max_id = np.argmax(res[0])
+    pipeline.classes_[max_id]
+    -Output: nama class tag dari prob max
+    pred_tag = pipeline.classes_[max_id]
+    jp.get_response(pred_tag)
+    -Output: prediksi balasan chat sesuai tagnya
+
+Jika di incoming_msg

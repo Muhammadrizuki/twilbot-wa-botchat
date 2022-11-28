@@ -1,0 +1,111 @@
+{
+    "intents": [
+        {
+            "tag": "salam",
+            "patterns": [
+                "Hai",
+                "Hi",
+                "Halo",
+                "Helo",
+                "Apa Kabar",
+                "Selamat Pagi",
+                "Selamat Siang",
+                "Selamat Sore",
+                "Selamat Malam",
+                "Salam",
+                "Ping",
+                "P",
+                "Piu",
+                "Permisi",
+                "Punten",
+                "Yuhuu"
+            ],
+            "responses": [
+                "Halo!",
+                "Hai",
+                "Halo, ada yang bisa saya bantu?",
+                "Halo selamat datang",
+                "Hai Kawan"
+            ]
+        },
+        {
+            "tag": "pembuat",
+            "patterns": [
+                "Kamu dibuat oleh siapa?",
+                "Siapa yang membuatmu?",
+                "Lo dibuat sama siapa?",
+                "Siapa yang buat lo?"
+            ],
+            "responses": [
+                "Tim kelompok 6 yang membuatku, yaitu Dhea, Nisa, Fadhil, Ikram, Ummul, Selvi, Rizki, dan Ayu. Kreatif ya!"
+            ]
+        },
+        {
+            "tag": "pembuatan_bot",
+            "patterns": [
+                "Bagaimana bot dibuat?",
+                "Bagaimana Twilbot dibuat?",
+                "Bagaimana kamu dibuat?",
+                "Gimana cara kamu dibuat?",
+                "Dari mana asalmu?",
+                "Lo dari mana?"
+            ],
+            "responses": [
+                "Saya berasal dari kumpulan kode-kode python. Pembuatku mengikuti banyak tutorial yang ada di youtube dan dokumentasi di internet, dan aku pun tercipta!"
+            ]
+        },
+        {
+            "tag": "bye",
+            "patterns": [
+                "Dadah",
+                "Selamat Tinggal",
+                "Dah",
+                "Daah",
+                "Thanks",
+                "Tengs",
+                "Semoga harimu menyenangkan",
+                "Ok makasih",
+                "Sampai Jumpa Lagi",
+                "Ok bye",
+                "Mantap",
+                "Oke"
+            ],
+            "responses": [
+                "Sampai jumpa lagi yaa",
+                "Kalau ada masalah, hubungi aku lagi ya",
+                "Semoga harimu menyenangkan!"
+            ]
+        },
+        {
+            "tag": "nama",
+            "patterns": [
+                "nama kamu siapa?",
+                "lu siapa?",
+                "siapa sih lo?",
+                "lu sape ?",
+                "nama lo sape dah ?",
+                "nama?"
+            ],
+            "responses": [
+                "Namaku Twilbot, salam kenal kak!",
+                "Halo, aku Twilbot!",
+                "Kenalin, aku Twilbot!"
+            ]
+        },
+        {
+            "tag": "kemampuan",
+            "patterns": [
+                "kamu bisa apa?",
+                "apa yang bisa anda lakukan?",
+                "kamu bisa ngapain aja?",
+                "lo bisa ngapain?",
+                "apa kemampuan lo?",
+                "selain itu?"
+            ],
+            "responses": [
+                "Kakak bisa tanya-tanya nama aku dan apa yang bisa aku lakukan",
+                "Saat ini aku masih dalam proses pengembangan jadi yang bisa aku lakukan masih sedikit. Kakak bisa tanya-tanya nama aku dan apa yang bisa aku lakukan."
+            ]
+        }
+    ]
+}
